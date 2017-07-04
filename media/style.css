@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.cell {
+    position: relative;
+    display: table-cell;
+}
+.seeData {
+    height: 80%;
+    padding-left: 14%;
+    padding-right: 14%;
+}
+.studyGuide {
+    background-image: url(images/ep_naturalwhite.png);
+    margin-top: 3%;
+    position: relative;
+    height: 50%;
+    box-shadow: 0 0 20px 0px black;
+}
+.middle {
+    vertical-align: middle;
+}
+.center {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    margin-top: 10;
+    text-align: center;
+    text-shadow: 0 0 10px black;
+    color: white;
+    font-size: 350%;
+}
+.websiteTitle {
+    padding-left: 3%;
+    vertical-align: middle;
+    font-family: 'Raleway', sans-serif;
+    font-size: 250%;
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+
+}
+[placeholder]:empty:before {
+    content: attr(placeholder);
+    color: #555; 
+}
+
+[placeholder]:empty:focus:before {
+    content: "";
+}
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 80;
+    box-shadow: 0px -1px 17px 3px black;
+    z-index: 900;
+    background-color: antiquewhite;
+}
+.flashcards {
+    float: left;
+    position: relative;
+    width: 49%;
+    background-image: url(images/cork-wallet.png);
+    height: 50%;
+    margin-top: 3%;
+}
+.tests {
+    float: right;
+    position: relative;
+    width: 49%;
+    background-image: url(images/cork-wallet.png);
+    height: 50%;
+    margin-top: 3%;  
+}
+.white {
+    color: white;
+}
+.step {
+    text-shadow: 0 0 10px black;
+    color: white;
+   font-size: 160%; 
+    margin-top: 2%;
+    margin-left: 3%;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+}
+.enterData {
+    height: 70vmin;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4%;    padding-left: 14%;
+    padding-right: 14%;
+    padding-top: 2%;
+    padding-bottom: 0%;
+}
+.enterText {
+    color: white!important;
+    margin-top: 7;
+    height: calc(100% - 20px);
+    width: 100%;
+    padding: 4%;
+    outline: none;
+    box-sizing: border-box;
+    overflow: auto;
+    border: transparent;
+    font-family: 'Roboto', sans-serif;
+    resize: none;
+    background-color: rgba(0,0,0,.05)
+}
+.textTitle {
+    transition: color .4s;
+    color: white;
+    height: 20;
+    text-shadow: 0 0 5px black;
+}
+.textTile {
+    background-color: #e27d60;
+    background-image: url(images/ep_naturalblack.png);
+    float: left;
+    padding: 2%;
+    margin-right: 2%;
+    width: 48%;
+    height: 35%;
+    box-shadow: 0 0 5px black;
+}
+.enter {
+    margin-top: 0%;
+    margin-bottom: 10%;
+}
+.googleTile {
+    background-image: url(images/ep_naturalwhite.png);
+    float: right;
+    padding: 2%;
+    width: 42%;
+    height: 35%;
+    box-shadow: 0 0 5px black;
+}
+.imageTile {
+    margin-top: 2%;
+    background-color: #C28D9E;
+    background-image: url(images/fresh_snow.png);
+    float: left;
+    padding: 2%;
+    width: 42%;
+    height: 35%;
+    box-shadow: 0 0 5px black;
+}
+.verticalalign {
+    display: table;
+    width: 100%;
+}
+.sect1 {
+    background-attachment: fixed;
+    position: relative;
+    background-image: url(images/topography.png);
+    border: 1px solid transparent;
+}
+.thickfont {
+    font-family: 'Raleway', sans-serif;
+}
+.letsStart {
+    position: relative;
+    padding: 4%;
+    height: 120;
+    text-align: center;
+    color: white;
+    font-size: 6vmin;
+    box-sizing: border-box;
+}
+.textshadow {
+    text-shadow: 4px 3px 0 black, 9px 8px 0 rgba(0,0,0,0.15);
+}
+.darker {
+    position: relative;
+    border: 1px solid transparent;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.4);
+}
+.darker2 {
+    position: relative;
+    border: 1px solid transparent;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.2);
+}
+.v2 {
+    background-image: url(images/stardust.png);
+    box-shadow: 0 0 17px black;
+    height: 100vmin;
+}
+.studyGuideText {
+    position: relative;
+    box-sizing: border-box;
+    color: black;
+    padding: 4%;
+    height: 100%;
+    outline: none;
+    overflow: auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0,0,0,.05)
+}
+.padding {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 4%;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: white;
+}
+.inline {
+    margin-top: 2%;
+    vertical-align: middle;
+    display: inline-block;
+    transition: color .4s;
+}
+.enterTile {
+    position: relative;
+    background-image: url(images/stardust.png);
+    float: right;
+    padding: 2%;
+    width: 48%;
+    margin-top: 2%;
+    height: 35%;
+    cursor: pointer;
+    box-shadow: 0 0 5px black; 
+}
+.enterTile:hover .textTitle{
+    color: black;
+}
+.enterTile:hover .inline{
+    color: lightgreen;
+}
